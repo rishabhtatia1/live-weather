@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/rishabhtatia1/live-weather/issues"
   },
-  "homepage": "https://github.com/rishabhtatia1/live-weather#readme"
+  "homepage": "https://github.com/rishabhtatia1/live-weather#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }

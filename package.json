@@ -1,0 +1,26 @@
+{
+  "name": "live-weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js -e js,hbs",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rishabhtatia1/live-weather.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rishabhtatia1/live-weather/issues"
+  },
+  "homepage": "https://github.com/rishabhtatia1/live-weather#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "request": "^2.88.2"
+  }
+}

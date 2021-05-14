@@ -10,7 +10,7 @@ const forecast = (latitude, longitude, callback) => {
     } else {
       callback(
         undefined,
-        `${data.current.weather_descriptions[0]}. It is currently ${data.current.temperature} fahrenheit out. There is a ${data.current.precip}% chance of rain.`
+        `${data.current.weather_descriptions[0]}. It is currently ${data.current.temperature} fahrenheit out. There is a ${data.current.precip}% chance of rain. The humidity is ${data.current.humidity}%.`
       );
     }
   });
